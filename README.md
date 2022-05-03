@@ -7,21 +7,19 @@ Fine-grained steretype detection dataset that was decribed in the paper is in th
 
 The <tt>notebooks/</tt> folder contains the following jupyter notebooks:
 
-<tt>
-1) bart_large-gpu1-policy_network_training.ipynb
+1) <tt> bart_large-gpu1-policy_network_training.ipynb </tt>
   
-2) bert_base-gpu0-policy_network_training.ipynb 
+2) <tt> bert_base-gpu0-policy_network_training.ipynb </tt>
   
-3) bert_large-gpu0_1-policy_network_training.ipynb 
+3) <tt> bert_large-gpu0_1-policy_network_training.ipynb </tt>
   
-4) xlnet_large-gpu1_1-policy_network_training.ipynb 
+4) <tt> xlnet_large-gpu1_1-policy_network_training.ipynb </tt>
   
-5) rl_multitask_data_utils.ipynb 
+5) <tt> rl_multitask_data_utils.ipynb </tt>
   
-6) ablation1-bert_base-gpu0.ipynb 
+6) <tt> ablation1-bert_base-gpu0.ipynb </tt>
   
-7) ablation2-bert-base-gpu0.ipynb 
-</tt>
+7) <tt> ablation2-bert-base-gpu0.ipynb </tt>
 
 Data utils notbook contains code to run the pre-processing raw datasets into processes format. You would need to change the name of the PLM tokenizer and model to generate embeddings for different PLMs. If you don't want to pre-process the data yourself, you may download the processed data files from <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
