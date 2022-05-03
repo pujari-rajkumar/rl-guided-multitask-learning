@@ -4,22 +4,24 @@ This repo contains the annotated dataset and code to replicate experiments and a
 Fine-grained steretype detection dataset that was decribed in the paper is in the annotated_data.csv file. Each data point was annotated by three MTurk annotaters with two labels: 1) whether the text contains explicit and intentional stereotype and 2) whether the text contains implicit stereotypical association. Majority vote from the three annotaters was assigned as the data label.
 
 <h3>Code</h3>
+
 The <tt>notebooks/</tt> folder contains the following jupyter notebooks:
+
 <tt>
-1) bart_large-gpu1-policy_network_training.ipynb
-2) bert_base-gpu0-policy_network_training.ipynb
-3) bert_large-gpu0_1-policy_network_training.ipynb
-4) xlnet_large-gpu1_1-policy_network_training.ipynb
-5) rl_multitask_data_utils.ipynb
-6) ablation1-bert_base-gpu0.ipynb
-7) ablation2-bert-base-gpu0.ipynb
+1) bart_large-gpu1-policy_network_training.ipynb <br/>
+2) bert_base-gpu0-policy_network_training.ipynb <br/>
+3) bert_large-gpu0_1-policy_network_training.ipynb <br/>
+4) xlnet_large-gpu1_1-policy_network_training.ipynb <br/>
+5) rl_multitask_data_utils.ipynb <br/>
+6) ablation1-bert_base-gpu0.ipynb <br/>
+7) ablation2-bert-base-gpu0.ipynb <br/>
 </tt>
 
 Data utils notbook contains code to run the pre-processing raw datasets into processes format. You would need to change the name of the PLM tokenizer and model to generate embeddings for different PLMs. If you don't want to pre-process the data yourself, you may download the processed data files from <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
 The policy training notebooks contain code for training all the experiments using the .pkl files provided <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
-THe ablations study notebooks contain code to replicate the MLT prior impact and neightbor task impact ablation studies as described in the paper.
+The ablations study notebooks contain code to replicate the MLT prior impact and neightbor task impact ablation studies as described in the paper.
 
 
 
