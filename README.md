@@ -25,7 +25,7 @@ Data utils notbook contains code to run the pre-processing raw datasets into pro
 
 The policy training notebooks contain code for training all the experiments using the .pkl files provided <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
-The ablations study notebooks contain code to replicate the MLT prior impact and neightbor task impact ablation studies as described in the paper.
+The ablations study notebooks contain code to replicate the MTL prior impact and neightbor task impact ablation studies as described in the paper.
 
 
 
