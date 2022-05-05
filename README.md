@@ -21,7 +21,7 @@ The <tt>notebooks/</tt> folder contains the following jupyter notebooks:
   
 7) <tt> ablation2-bert-base-gpu0.ipynb </tt>
 
-Data utils notbook contains code to run the pre-processing raw datasets into processes format. You would need to change the name of the PLM tokenizer and model to generate embeddings for different PLMs. If you don't want to pre-process the data yourself, you may download the processed data files from <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
+Data utils notbook contains code to run the pre-processing raw datasets into processed format required to run the experiments. You would need to change the name of the PLM tokenizer and model to generate embeddings for different PLMs. If you don't want to pre-process the data yourself, you may download the processed data files from <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
 The policy training notebooks contain code for training all the experiments using the .pkl files provided <a href="https://drive.google.com/drive/folders/1_PKGwIrGdCfGeNfQqAckwJvyzrc9KfiV?usp=sharing">here</a>.
 
